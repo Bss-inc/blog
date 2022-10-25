@@ -1,0 +1,72 @@
+sitename: "Bss foundation blog"
+baseURL: "/"
+languageCode: en-us
+title: "Bss foundation blog on github"
+author: Sohrab Behdani
+
+enableEmoji: true
+hasCJKLanguage: false
+# You can change code highlight theme
+pygmentsstyle: "tango"
+pygmentscodefences: true
+
+# if you want to add html to your markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Links of the navbar
+menu:
+  primary:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about
+      weight: 2
+    - name: Main Site
+      url: https://bss-inc.github.io
+      weight: 3
+    - name: Subscribe
+      url: /index.xml
+      weight: 4
+
+# You can add languages!
+# do not expect it to work out of the box
+# https://gohugo.io/content-management/multilingual/
+defaultContentLanguage: en
+languages:
+  en:
+    LanguageName: English
+    # contentDir: content/english
+    #ru:
+    #LanguageName: русский
+    # contentDir: content/russian
+
+params:
+  sitename: "Bss foundation blog"
+  # it will produce: copyrights (c) 2022 joe
+  copyrights: Bss
+  # path to the favicon directory
+  # see ./layouts/_defaults/baseof.html line #30 to line #37
+#  faviconpath: "/img/favicon"
+  # projects will show in the index page
+  links:
+    - name: "wekhed page"
+      description: "Bss foundation wekhed page"
+      url: https://wekhed.ir/bssinc
+      #- name: ""
+      #description: "The best hugo theme ever!!!"
+      #url: https://github.com/M1cR0xf7/kaslaanka
+  # link to more projects
+  # show your github repositories as example
+  # or create your own page.
+  projectsURL: https://example.com
+
+  
+  brief_about: <center>Bss foundation main blog</center>
+
+
+theme: kaslaanka
+
