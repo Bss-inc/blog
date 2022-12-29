@@ -28,9 +28,7 @@ menu:
     - name: Main Site
       url: https://bss-inc.github.io
       weight: 3
-    - name: Subscribe
-      url: /index.xml
-      weight: 4
+
 
 # You can add languages!
 # do not expect it to work out of the box
@@ -47,15 +45,15 @@ languages:
 params:
   sitename: "Bss foundation blog"
   # it will produce: copyrights (c) 2022 joe
-  copyrights: Bss
+  copyrights: (c) 2015-2022 Bss
   # path to the favicon directory
   # see ./layouts/_defaults/baseof.html line #30 to line #37
 #  faviconpath: "/img/favicon"
   # projects will show in the index page
   links:
-    - name: "wekhed page"
-      description: "Bss foundation wekhed page"
-      url: https://wekhed.ir/bssinc
+    - name: "Virasty"
+      description: "Bss foundation Virasty page"
+      url: https://Virasty.com/bssinc
       #- name: ""
       #description: "The best hugo theme ever!!!"
       #url: https://github.com/M1cR0xf7/kaslaanka
